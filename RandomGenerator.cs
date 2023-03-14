@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Clasificare
+namespace Classifier
 {
     public class RandomGenerator
     {

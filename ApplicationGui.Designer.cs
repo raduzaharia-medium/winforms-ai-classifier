@@ -1,4 +1,4 @@
-namespace Clasificare
+namespace Classifier
 {
     partial class ApplicationGui
     {
@@ -81,7 +81,7 @@ namespace Clasificare
             this.grpPopulation.Size = new System.Drawing.Size(161, 100);
             this.grpPopulation.TabIndex = 0;
             this.grpPopulation.TabStop = false;
-            this.grpPopulation.Text = "Populatie";
+            this.grpPopulation.Text = "Population";
             // 
             // lblMaximumHeight
             // 
@@ -90,7 +90,7 @@ namespace Clasificare
             this.lblMaximumHeight.Name = "lblMaximumHeight";
             this.lblMaximumHeight.Size = new System.Drawing.Size(81, 13);
             this.lblMaximumHeight.TabIndex = 1;
-            this.lblMaximumHeight.Text = "Inaltime maxima";
+            this.lblMaximumHeight.Text = "Maximum height";
             // 
             // numMaximumHeight
             // 
@@ -109,7 +109,7 @@ namespace Clasificare
             this.lblMinimalHeight.Name = "lblMinimalHeight";
             this.lblMinimalHeight.Size = new System.Drawing.Size(78, 13);
             this.lblMinimalHeight.TabIndex = 1;
-            this.lblMinimalHeight.Text = "Inaltime minima";
+            this.lblMinimalHeight.Text = "Minimum height";
             // 
             // numMinimalHeight
             // 
@@ -128,7 +128,7 @@ namespace Clasificare
             this.lblPopulationSize.Name = "lblPopulationSize";
             this.lblPopulationSize.Size = new System.Drawing.Size(72, 13);
             this.lblPopulationSize.TabIndex = 1;
-            this.lblPopulationSize.Text = "Numar indivizi";
+            this.lblPopulationSize.Text = "Population size";
             // 
             // numPopulationSize
             // 
@@ -168,7 +168,7 @@ namespace Clasificare
             this.grpEvolution.Size = new System.Drawing.Size(175, 100);
             this.grpEvolution.TabIndex = 1;
             this.grpEvolution.TabStop = false;
-            this.grpEvolution.Text = "Evolutie";
+            this.grpEvolution.Text = "Evolution";
             // 
             // lblCopiedIndividuals
             // 
@@ -177,7 +177,7 @@ namespace Clasificare
             this.lblCopiedIndividuals.Name = "lblCopiedIndividuals";
             this.lblCopiedIndividuals.Size = new System.Drawing.Size(73, 13);
             this.lblCopiedIndividuals.TabIndex = 5;
-            this.lblCopiedIndividuals.Text = "Indivizi copiati";
+            this.lblCopiedIndividuals.Text = "Copied individuals";
             // 
             // numCopiedIndividuals
             // 
@@ -195,7 +195,7 @@ namespace Clasificare
             this.lblSelectionProbability.Name = "lblSelectionProbability";
             this.lblSelectionProbability.Size = new System.Drawing.Size(104, 13);
             this.lblSelectionProbability.TabIndex = 3;
-            this.lblSelectionProbability.Text = "Probabilitate selectie";
+            this.lblSelectionProbability.Text = "Selection probability";
             // 
             // numSelectionProbability
             // 
@@ -234,7 +234,7 @@ namespace Clasificare
             this.lblMutationProbability.Name = "lblMutationProbability";
             this.lblMutationProbability.Size = new System.Drawing.Size(102, 13);
             this.lblMutationProbability.TabIndex = 1;
-            this.lblMutationProbability.Text = "Probabilitate mutatie";
+            this.lblMutationProbability.Text = "Mutation probability";
             // 
             // numMutationProbability
             // 
@@ -271,7 +271,7 @@ namespace Clasificare
             this.grpEvolutionControl.Size = new System.Drawing.Size(130, 100);
             this.grpEvolutionControl.TabIndex = 2;
             this.grpEvolutionControl.TabStop = false;
-            this.grpEvolutionControl.Text = "Control evolutie";
+            this.grpEvolutionControl.Text = "Evolution control";
             // 
             // btnEvolve
             // 
@@ -281,7 +281,7 @@ namespace Clasificare
             this.btnEvolve.Name = "btnEvolve";
             this.btnEvolve.Size = new System.Drawing.Size(118, 23);
             this.btnEvolve.TabIndex = 2;
-            this.btnEvolve.Text = "Evolueaza";
+            this.btnEvolve.Text = "Evolve";
             this.btnEvolve.UseVisualStyleBackColor = true;
             this.btnEvolve.Click += new System.EventHandler(this.btnEvolve_Click);
             // 
@@ -292,7 +292,7 @@ namespace Clasificare
             this.lblStepCount.Name = "lblStepCount";
             this.lblStepCount.Size = new System.Drawing.Size(60, 13);
             this.lblStepCount.TabIndex = 1;
-            this.lblStepCount.Text = "Numar pasi";
+            this.lblStepCount.Text = "Step count";
             // 
             // numStepCount
             // 
@@ -360,7 +360,7 @@ namespace Clasificare
             this.grpClassifier.Size = new System.Drawing.Size(230, 100);
             this.grpClassifier.TabIndex = 4;
             this.grpClassifier.TabStop = false;
-            this.grpClassifier.Text = "Clasificare";
+            this.grpClassifier.Text = "Analisys";
             // 
             // btnAnalyze
             // 
@@ -369,7 +369,7 @@ namespace Clasificare
             this.btnAnalyze.Name = "btnAnalyze";
             this.btnAnalyze.Size = new System.Drawing.Size(111, 23);
             this.btnAnalyze.TabIndex = 2;
-            this.btnAnalyze.Text = "Clasifica";
+            this.btnAnalyze.Text = "Analyze";
             this.btnAnalyze.UseVisualStyleBackColor = true;
             this.btnAnalyze.Click += new System.EventHandler(this.btnAnalyze_Click);
             // 
@@ -380,7 +380,7 @@ namespace Clasificare
             this.lblVariables.Name = "lblVariables";
             this.lblVariables.Size = new System.Drawing.Size(47, 13);
             this.lblVariables.TabIndex = 1;
-            this.lblVariables.Text = "Variabile";
+            this.lblVariables.Text = "Variables";
             // 
             // txtVariables
             // 

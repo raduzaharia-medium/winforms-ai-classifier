@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Clasificare
+namespace Classifier
 {
     public class Individual : IComparable<Individual>, ICloneable
     {

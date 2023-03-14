@@ -2,7 +2,7 @@ using System;
 using System.Windows.Forms;
 using System.IO;
 
-namespace Clasificare
+namespace Classifier
 {
     public partial class ApplicationGui : Form
     {

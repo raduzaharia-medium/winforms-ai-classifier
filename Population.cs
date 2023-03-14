@@ -1,6 +1,6 @@
 using System;
 
-namespace Clasificare
+namespace Classifier
 {
     public class Population
     {

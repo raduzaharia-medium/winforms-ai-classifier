@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Clasificare
+namespace Classifier
 {
     public interface IMathExpression : ICloneable
     {
